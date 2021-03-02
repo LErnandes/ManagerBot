@@ -18,7 +18,7 @@ client.on('message', msg => {
             var res;
 
             if (args[0] == "js") {
-                let res = js_exec(args.slice(1, args.lenght).join(' '))
+                res = js_exec(args.slice(1, args.lenght).join(' '))
             }
 
             msg.channel.send(res);
