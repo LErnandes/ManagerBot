@@ -11,8 +11,5 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
-  },
-  "engines": {
-    "yarn": "1.22.5"
   }
 }
